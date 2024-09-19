@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
 - main.py
 ---------
-  from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 import json, os
 
 AUTHOR = os.environ['AUTHOR']
