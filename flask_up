@@ -1,5 +1,5 @@
 - app.py
-
+---------
 from main import app
 
 if __name__ == "__main__":
@@ -26,7 +26,7 @@ def get_project():
     return jsonify(res)
 
 - req.txt
-
+----------
 click==8.1.7
 Flask==2.0.1
 importlib-metadata==6.7.0
@@ -38,7 +38,7 @@ Werkzeug==2.2.3
 zipp==3.15.0
 
 - Dockerfile
-
+------------
 FROM python:3.8-alpine
 
 WORKDIR /app
@@ -52,7 +52,7 @@ COPY . /app
 CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 
 - docker-compose.yml
-
+--------------------
 version: "3.9"
 services:
   flaskapp:
@@ -92,6 +92,6 @@ networks:
     driver: bridge
 
 - .env.txt
-
+-----------
 POSTGRESDB_USER: postgres
 POSTGRESDB_PASSWORD: postgres
