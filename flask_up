@@ -99,11 +99,13 @@ POSTGRESDB_PASSWORD: postgres
 
 
 
---Dockerfile run:
+-- Dockerfile run:
 docker run -e AUTHOR=ulugbek -dp 5000:5000 flask-app(container-name) flask(image-name)
 
 -- docker-network.sh
 docker network create api_net -d bridge --scope local --subnet 172.22.2.0/24 --attachable
 docker network create db_net -d bridge --scope local --subnet 172.22.3.0/24 --attachable
 
+-- docker-compose.yml run
+docker compose up -d
 
