@@ -95,3 +95,8 @@ networks:
 -----------
 POSTGRESDB_USER: postgres
 POSTGRESDB_PASSWORD: postgres
+
+
+
+--Dockerfile run:
+docker run -e AUTHOR=ulugbek -dp 5000:5000 flask-app(container-name) flask(image-name)
