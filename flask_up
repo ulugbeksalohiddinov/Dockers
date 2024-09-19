@@ -87,9 +87,9 @@ volumes:
 
 networks:
   api_net:
-    driver: bridge
+    external: true
   db_net:
-    driver: bridge
+    external: true
 
 - .env.txt
 -----------
@@ -100,3 +100,5 @@ POSTGRESDB_PASSWORD: postgres
 
 --Dockerfile run:
 docker run -e AUTHOR=ulugbek -dp 5000:5000 flask-app(container-name) flask(image-name)
+
+
