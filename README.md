@@ -32,8 +32,19 @@ docker build -t <image_name> .
 
 docker run -dp 5000:5000 <container_name> <image_name/id>
 
-docker run -e AUTHOR=ulugbek -dp 5000:5000 <container-name> <image-name/id>
+docker run -e AUTHOR=ulugbek -dp 5000:5000 <container_name> <image_name/id>
 
+**_- docker-compose.yml run_**
+
+docker compose up -d
+
+**_- delete docker container_**
+
+docker rm -f <container_name/id>
+
+**_- delete docker image_**
+
+docker rmi <image_name/id>
 
 
 
