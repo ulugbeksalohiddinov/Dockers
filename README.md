@@ -28,6 +28,12 @@ docker logs <container_name>
 
 docker build -t <image_name> .
 
+**_- dockerfile run_**
+
+docker run -dp 5000:5000 <container-name> <image-name or id>
+docker run -e AUTHOR=ulugbek -dp 5000:5000 <container-name> <image-name or id>
+
+
 
 
 
