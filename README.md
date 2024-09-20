@@ -46,15 +46,17 @@ docker rm -f <container_name/id>
 
 docker rmi <image_name/id>
 
+**_- docker container stop/start_**
 
+docker stop/start <container_name>
 
+**_- show docker images and container size_**
 
+ docker system df
 
+ **_- clear docker images cash size_**
 
-
-
-
-
+ docker image prune -af
 
 
   
