@@ -82,8 +82,11 @@ for fname in ./* ;
      fi
  done
   echo "All docker containers are built up "
+#
+**Enter in the container**
 
-  
+      docker exec -it [container id or name] sh
+
 
 
 
