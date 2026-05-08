@@ -111,17 +111,17 @@ Docker Composeda Asosiy buyruqlar:
 
 **Buyruq                        Ma'no**
 
-docker compose up -d          - Barcha containerlarni ishga tushirish
+_docker compose up -d_          - Barcha containerlarni ishga tushirish
 
-docker compose down           - To'xtatish va o'chirish
+_docker compose down _          - To'xtatish va o'chirish
 
-docker compose build          - Imagelarni build qilish
+_docker compose build_          - Imagelarni build qilish
 
-docker compose logs -f        - Loglarni kuzatish
+_docker compose logs -f_        - Loglarni kuzatish
 
-docker compose ps             - Container holati
+_docker compose ps_             - Container holati
 
-docker compose exec app bash  - Containerga kirish
+_docker compose exec app bash_  - Containerga kirish
 
 
 
