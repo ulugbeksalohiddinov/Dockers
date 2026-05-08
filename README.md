@@ -86,7 +86,9 @@
 **Enter in the container**
 
       docker exec -it [container id or name] sh
+      
       yoki
+      
       docker exec -it [container id or name] /bin/bash
 
 -------------------------------------------------------------------------------
