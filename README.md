@@ -95,7 +95,7 @@ Holatlarga qarab
 
 Oddiy o'zgarishlar (env variable, port, volume):
 
-   docker compose up -d
+    docker compose up -d
 
 
 
