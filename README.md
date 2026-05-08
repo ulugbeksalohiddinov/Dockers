@@ -95,16 +95,16 @@ Holatlarga qarab:
 
 - Oddiy o'zgarishlar (env variable, port, volume):
 
-    docker compose up -d
+     docker compose up -d
 
 - Image o'zgargan bo'lsa (yangi build kerak):
 
-    docker compose up -d --build
+     docker compose up -d --build
 
 - To'liq tozalab qayta boshlash:
 
-    docker compose down
-    docker compose up -d
+     docker compose down
+     docker compose up -d
 
 
 
