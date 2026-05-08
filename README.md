@@ -2,67 +2,67 @@
 
 **_- show docker container_**
 
-docker ps, docker ps -a
+    docker ps, docker ps -a
 
 **_- show docker images_**
 
-docker images
+    docker images
 
 **_- show docker images all details_**
 
-docker image inspect
+    docker image inspect
 
 **_- show docker network_**
 
-docker network ls
+    docker network ls
 
 **_- show docker volume_**
 
-docker volume ls
+    docker volume ls
 
 **_- show logs_**
 
-docker logs <container_name>
+    docker logs <container_name>
 
 **_- build image_**
 
-docker build -t <image_name> .
+    docker build -t <image_name> .
 
 **_- dockerfile run_**
 
-docker run -dp 5000:5000 <container_name> <image_name/id>
+    docker run -dp 5000:5000 <container_name> <image_name/id>
 
-docker run -e AUTHOR=ulugbek -dp 5000:5000 <container_name> <image_name/id>
+    docker run -e AUTHOR=ulugbek -dp 5000:5000 <container_name> <image_name/id>
 
 **_- docker-compose.yml run_**
 
-docker compose up -d
+    docker compose up -d
 
 **_- delete docker container_**
 
-docker rm -f <container_name/id>
+    docker rm -f <container_name/id>
 
 **_- delete docker image_**
 
-docker rmi <image_name/id>
+    docker rmi <image_name/id>
 
 **_- docker container stop/start_**
 
-docker stop/start <container_name>
+    docker stop/start <container_name>
 
 **_- show docker images and container size_**
 
- docker system df
+     docker system df
 
  **_- clear docker images cash size_**
 
- docker image prune -af
+     docker image prune -af
 
 
   
 **_- docker-network.sh_**
 
-docker network create api_net -d bridge --scope local --subnet 172.22.2.0/24 --attachable
+    docker network create api_net -d bridge --scope local --subnet 172.22.2.0/24 --attachable
 
 **_- stop all docker container (stop.sh)_**
 
