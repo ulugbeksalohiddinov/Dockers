@@ -89,6 +89,13 @@ for fname in ./* ;
 
 
 
+Docker Compose — Yangi konfiguratsiya bilan qayta ishga tushirish
+
+Holatlarga qarab
+Oddiy o'zgarishlar (env variable, port, volume):
+
+  docker compose up -d
+
 
 
 
