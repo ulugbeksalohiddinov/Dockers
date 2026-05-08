@@ -140,6 +140,38 @@ Containerga kirish
         docker compose exec app bash
 
 
+**Minimum docker-compose.yaml fayl**
+
+
+        version: '3.7'
+        services:
+          front_app:
+            container_name: App_JS
+            build:
+              context: .
+              dockerfile: Dockerfile
+            ports:
+              - "1011:80"
+            restart: always
+            environment:
+              TZ: 'Asia/Tashkent'
+              PGTZ: 'Asia/Tashkent'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
