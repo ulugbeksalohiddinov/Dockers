@@ -109,7 +109,7 @@ Holatlarga qarab:
 
 Docker Composeda Asosiy buyruqlar:
 
-**Buyruq                        
+**Buyruq**                        
 
 Barcha containerlarni ishga tushirish
 
