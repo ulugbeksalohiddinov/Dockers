@@ -66,22 +66,22 @@
 
 **_- stop all docker container (stop.sh)_**
 
-#! /bin/bash
-docker stop $(docker ps -a -q)
+        #! /bin/bash
+        docker stop $(docker ps -a -q)
 
 **_- start all docker container (start.sh)_**
 
-#! /bin/bash
-for fname in ./* ;
- do
-    if [ -d $fname ];then
-     cd $fname
-      docker-compose up --build -d
-      cd ..
-      echo $fname
-     fi
- done
-  echo "All docker containers are built up "
+        #! /bin/bash
+        for fname in ./* ;
+         do
+            if [ -d $fname ];then
+             cd $fname
+              docker-compose up --build -d
+              cd ..
+              echo $fname
+             fi
+         done
+          echo "All docker containers are built up "
 #
 **Enter in the container**
 
