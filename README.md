@@ -87,7 +87,7 @@ for fname in ./* ;
 
       docker exec -it [container id or name] sh
 
-
+-------------------------------------------------------------------------------
 
 Docker Compose — Yangi konfiguratsiya bilan qayta ishga tushirish
 
