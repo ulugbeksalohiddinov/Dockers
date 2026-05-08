@@ -116,6 +116,7 @@ Barcha containerlarni ishga tushirish
         docker compose up -d          
 
 To'xtatish va o'chirish
+
         docker compose down
 
 Imagelarni build qilish
