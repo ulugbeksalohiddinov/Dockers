@@ -20,6 +20,8 @@
 
     docker volume ls
 
+    valumeda maunt qilganda chap tarafdagi hostdagi papaka o'ng tomondagi containerdagi papka
+
 **_- show logs_**
 
     docker logs <container_name>
